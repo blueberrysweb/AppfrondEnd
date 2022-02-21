@@ -1,22 +1,22 @@
 import "./App.css";
-import Comptador from "./Comptador";
-import SayHello from "./Efectes";
-import Ping from "./Efectes";
-import Galeria from "./galeria";
+import "./";
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import llista from "./pages/Llista";
 
 function App() {
   return (
-    <>
-      <div className="content">
-        <Galeria />
-      </div>
-      <div className="content">
-        <Comptador />
-      </div>
-      <div className="content">
-        <SayHello />
-      </div>
-    </>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          {llista.map((item) => (
+            <Route path="item.path" element={item.element} />
+          ))}
+        </Route>
+      </Routes>
+    </HashRouter>
   );
 }
 

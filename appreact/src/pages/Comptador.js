@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./App.css";
+
+import "../App.css";
 
 export default function Comptador() {
   let [count, setCount] = useState(0);
