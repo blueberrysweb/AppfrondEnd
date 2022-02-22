@@ -73,3 +73,17 @@ footer {
   width: 90%;
   height: 10%;
 }
+
+.txtp {
+  font-size: 12px;
+}
+.txtl {
+  display: none;
+}
+
+.txt {
+  font-size: 12px;
+}
+.txt2 {
+  display: none;
+}

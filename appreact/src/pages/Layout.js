@@ -1,9 +1,11 @@
 import { Outlet, Link } from "react-router-dom";
+import llista from "./Llista";
 
 export default function Layout() {
   return (
     <>
       <header>Exercicis react- Ivan Palacios</header>
+
       <div class="HolyGrail-body">
         <main class="HolyGrail-content">
           <Outlet />
@@ -13,12 +15,11 @@ export default function Layout() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
-              <Link to="/Comptador">Comptador</Link>
-            </li>
-            <li>
-              <Link to="/Galeria">Galeria</Link>
-            </li>
+            {llista.map((item) => (
+              <li>
+                <Link to={item.path}>{item.titol}</Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <aside class="HolyGrail-ads">…</aside>

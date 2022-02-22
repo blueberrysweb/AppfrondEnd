@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <h1>Welcome!</h1>
-      <pre>Si us plau, usa el navegador per veure els diferents exercicis.</pre>
+      <p>Si us plau, usa el navegador per veure els diferents exercicis.</p>
     </>
   );
 }
