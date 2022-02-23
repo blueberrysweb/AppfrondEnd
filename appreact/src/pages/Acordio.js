@@ -18,7 +18,7 @@ export default function Acordio() {
         </ul>
       ))}
 
-      <p className={obre1}>Toggle 1</p>
+      <p className={obre1}>vfuyvfuy</p>
 
       <p className={obre1}>Toggle 2</p>
 
