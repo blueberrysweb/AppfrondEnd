@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AppfrondEnd/static/css/main.9b5f3be1.css",
+    "main.js": "/AppfrondEnd/static/js/main.43affc8e.js",
+    "static/js/787.074d24d3.chunk.js": "/AppfrondEnd/static/js/787.074d24d3.chunk.js",
+    "index.html": "/AppfrondEnd/index.html",
+    "main.9b5f3be1.css.map": "/AppfrondEnd/static/css/main.9b5f3be1.css.map",
+    "main.43affc8e.js.map": "/AppfrondEnd/static/js/main.43affc8e.js.map",
+    "787.074d24d3.chunk.js.map": "/AppfrondEnd/static/js/787.074d24d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b5f3be1.css",
+    "static/js/main.43affc8e.js"
+  ]
+}
