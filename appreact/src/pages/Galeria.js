@@ -24,7 +24,7 @@ export default function Galeria() {
               alt={foto}
               onClick={() => open(foto)}
               className={fotoclikada === foto ? imggalery : "imgPetit"}
-              src={`img/${foto}`}
+              src={`imagen/${foto}`}
             />
           ))}
         </div>

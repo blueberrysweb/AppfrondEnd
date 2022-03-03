@@ -37,6 +37,8 @@ export default function Vector() {
     Mitjana = suma / llista.length;
   }
 
+  /* Exercicics 7 */
+
   return (
     <>
       <label>Array</label>
